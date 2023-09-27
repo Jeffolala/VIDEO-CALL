@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <script src="./js_file/peerjs.js"></script>
+    <title>Peer to Peer Connection</title>
+</head>
+<body>
+    
+    <h2>This is a Peer to Peer Connection!!!!</h2>
+    <p id = "id"> This peer is directly connected to my phone and computer</p>
+    <input type = "text" id ="remotePeerId" name = "remotePeerId" readonly/><br><br>
+    <input type = "text" id = "localPeerId" name = "localPeerId" readonly/><br><br>
+    <button  id = "call" >call</button>
+
+    <video id = "localVideo"></video>
+    <video id = "remoteVideo"></video>
+
+
+    <script src="./js_file/call.js"></script>
+</body>
+</html>
